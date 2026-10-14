@@ -1,0 +1,16 @@
+IMAGENS E REFERÊNCIAS — BRAS BURGER
+
+As imagens publicadas foram extraídas do arquivo fornecido pelo usuário:
+Cardápio BRASBURGUER 2026_Oficial.pdf, páginas 2 a 9.
+O selo da marca foi extraído do cabeçalho desse cardápio.
+
+As imagens completas foram preservadas nos detalhes dos produtos.
+Miniaturas com sufixo -card usam recortes para destacar o hambúrguer na lista.
+Arquivos WebP otimizam o carregamento. Não foram gerados produtos por IA.
+Os arquivos oficiais permanecem sujeitos aos direitos de seus titulares.
+
+Referência de movimento indicada pelo usuário:
+https://naocodei.com/free-code/
+https://naocodei.com/free-code-css/
+O site contém adaptações próprias dos padrões, sem bibliotecas externas
+de animação e com suporte à preferência de movimento reduzido.

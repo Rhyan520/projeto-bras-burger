@@ -1,0 +1,126 @@
+BRAS BURGER — CARDÁPIO OFICIAL 2026
+Atualizado em 08/10/2026
+
+Site completo e editável em HTML, CSS e JavaScript. Prioridade para celulares.
+Imagens, marca, ingredientes e preços extraídos do PDF oficial enviado pela
+loja. A cópia integral desse PDF está em originais, dentro deste pacote.
+
+APRESENTAR
+
+Extraia o ZIP mantendo arquivos e pastas juntos. Abra index.html no navegador.
+Fontes personalizadas e WhatsApp usam internet; existem fontes alternativas.
+Para servidor local, com Node.js instalado, abra INICIAR-PREVIA.cmd no Windows.
+Em outros sistemas: node preview.cjs. Acesse http://127.0.0.1:4173.
+Para encerrar o servidor local: Ctrl+C no terminal.
+
+Use dados fictícios na apresentação. Explore categorias, personalize um lanche
+com adicionais e observações, altere quantidades na sacola, escolha entrega
+ou retirada e pagamento, confira o resumo e gere a mensagem com número.
+Para demonstrar, não é necessário enviar a mensagem à loja.
+
+CONTATO E ATENDIMENTO
+
+WhatsApp: +55 (98) 98474-9589.
+Av. Rio Branco, Centro, Cantanhede/MA, em frente ao quartel da Polícia Militar.
+Atendimento: 19h às 23h; fechada às terças-feiras (briefing anterior).
+Delivery e retirada. Pix, cartão e dinheiro.
+
+CARDÁPIO OFICIAL — 21 PRODUTOS
+
+- Burguer Simples: R$ 16,00
+- Burguer Queridinho: R$ 19,00
+- Bacon Royale: R$ 20,00
+- Burguer Bras: R$ 25,00
+- Burguer Moda da Casa: R$ 29,00
+- Supreme Burguer 2.0: R$ 27,00
+- Cheese Brás: R$ 30,00
+- Combo Burguer Simples: R$ 30,00
+- Combo Burguer Queridinho: R$ 38,00
+- Combo Burguer Bras: R$ 40,00
+- Hot Bras: R$ 23,00
+- Hot Frango: R$ 20,00
+- Batata Frita Simples: R$ 17,00
+- Batata Premium: R$ 25,00
+- Porção de Fritas: R$ 35,00
+- Porção de Pastéis de Queijo: R$ 18,00
+- Bolinhas de Carne de Sol: R$ 20,00
+- Suco 300ml: R$ 9,00
+- Refrigerante 350ml: R$ 7,00
+- Água com Gás: R$ 5,00
+- Água Mineral: R$ 4,00
+
+ADICIONAIS — 10 OPÇÕES
+
+- Bacon: R$ 5,00 por unidade
+- Ovo: R$ 3,00 por unidade
+- Blend 110g: R$ 7,00 por unidade
+- Blend 130g: R$ 9,00 por unidade
+- Geleia de Bacon: R$ 8,00 por unidade
+- Geleia de Pimenta: R$ 5,00 por unidade
+- Picles: R$ 5,00 por unidade
+- Queijo Cheddar: R$ 5,00 por unidade
+- Queijo Coalho: R$ 6,00 por unidade
+- Cebola Orion: R$ 5,00 por unidade
+
+Adicionais disponíveis para hambúrgueres, sanduíches e o hambúrguer do combo.
+O valor selecionado é cobrado por unidade de produto. Cada adicional pode
+ser selecionado uma vez por unidade; pedidos especiais usam as observações.
+Porções e bebidas não exibem adicionais de hambúrguer.
+
+Os ingredientes estão no detalhe do produto; as descrições da listagem são
+abreviadas visualmente para manter a leitura no celular. O termo cebola orion
+foi preservado conforme o PDF. Sabores de sucos/refrigerantes devem ser
+informados nas observações e confirmados pela equipe.
+
+INFORMAÇÕES A COMPLETAR
+
+Bairros atendidos, taxas e prazos de entrega, disponibilidade diária e opções
+de bebidas. A taxa de entrega permanece a confirmar: o site calcula o total
+dos itens e informa claramente que ainda não inclui a entrega. Na retirada,
+não há taxa de entrega. A equipe confirma as condições antes de finalizar.
+
+HOSPEDAR DEPOIS
+
+Sem instalação de pacotes e sem build. Publique:
+index.html, app.js, interacoes.js, style.css, mobile.css, brasa.css,
+interacoes.css e a pasta images. index.html deve ficar na raiz pública.
+Mantenha a ordem dos estilos e scripts definida em index.html.
+Use uma hospedagem estática com HTTPS e teste o fluxo em um celular.
+Documentação, originais, preview.cjs e INICIAR-PREVIA.cmd não precisam ser
+enviados à pasta pública. O site não depende de configuração do Sites.
+
+EDITAR
+
+app.js: CONFIG (contato e taxa), products (produtos, preços em centavos,
+descrições, fotos e available), addons (adicionais) e categories (categorias).
+CONFIG.deliveryFee=null significa taxa a confirmar. Ao definir uma taxa fixa,
+ajuste também os textos de entrega no checkout e no resumo.
+index.html: marca, horários, endereço, metadados e links de contato.
+brasa.css: identidade visual. mobile.css: diálogos e adaptação mobile.
+interacoes.css e interacoes.js: fotos e movimentos adaptados à experiência.
+Ao mudar o contato, busque também 5598984749589 e 98474-9589 nos arquivos.
+
+INTERAÇÕES
+
+Implementação própria inspirada na vitrine Não Codei: entrada curta dos
+produtos ao trocar categoria, abertura suave dos painéis, onda de toque,
+feedback nos botões e atualização visual do valor da sacola. Sem bibliotecas
+de animação. A preferência de redução de movimento desativa os efeitos,
+mantendo o conteúdo completo e as ações disponíveis imediatamente.
+Fontes: https://naocodei.com/free-code/ e https://naocodei.com/free-code-css/
+
+LIMITES DO MVP
+
+O cliente confirma o envio dentro do WhatsApp. Gerar um pedido ou abrir a
+conversa não comprova envio, recebimento ou aceite pela loja.
+Nenhuma cobrança é feita no site. O pagamento é combinado com a equipe.
+Não há banco de dados, painel administrativo ou estoque sincronizado.
+Sacola e dados são temporários e se perdem ao recarregar a página.
+O número usa data e parte aleatória; não é uma sequência centralizada.
+
+VALIDAÇÃO
+
+Conferência do PDF e associação visual das imagens com os produtos; layouts
+de 320 e 1280 pixels; cinco categorias; cálculo de adicionais por unidade;
+edição da sacola; observações; retirada; geração do número e mensagem para
+o WhatsApp correto. Nenhuma mensagem de teste foi enviada à loja.

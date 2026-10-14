@@ -1,0 +1,31 @@
+﻿BRAS BURGER — SITE ATUALIZADO
+
+COMO ABRIR NO COMPUTADOR
+1. Extraia todo o ZIP (clique com o botão direito > Extrair tudo).
+2. Abra a pasta Bras-Burger-Atualizado.
+3. Dê dois cliques no arquivo index.html.
+
+Não abra o HTML de dentro do ZIP. As imagens e os demais arquivos
+precisam permanecer nas mesmas pastas, como foram entregues.
+Não é necessário instalar nada para abrir index.html.
+As fontes personalizadas precisam de internet; há fontes alternativas.
+
+O QUE FOI ATUALIZADO
+- Entrega: Rua, Referência e Bairro obrigatórios para entrega.
+- Revisão, resumo, cópia e WhatsApp com o novo endereço.
+- Remoção dos textos decorativos acima dos títulos.
+- Ajustes de espaçamento e contraste da sacola no celular.
+- Categorias no celular em botões deslizantes, sem seletor nativo.
+- Pagamento por Pix, cartão ou dinheiro, com opção de troco.
+- Catálogo, preços, adicionais, contato e regras de frete preservados.
+
+NO CELULAR
+O layout se adapta à largura da tela. Para compartilhar a prévia
+com clientes e abrir por um link no celular, hospede os arquivos
+em um serviço de sites estáticos com HTTPS. Este pacote não foi
+publicado. Abrir arquivos locais depende do gerenciador de arquivos
+do celular; a forma mais confiável de acesso é por um link hospedado.
+
+Use um navegador atualizado. Não existe garantia de funcionamento
+em todos os aparelhos ou versões antigas de navegadores.
+Nenhuma mensagem foi enviada à hamburgueria durante os testes.
