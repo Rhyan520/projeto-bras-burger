@@ -33,3 +33,31 @@
 }
 @media(max-width:350px){.product-body{padding:16px 10px}.product-body h4{font-size:20px}.product-body p{font-size:13px}.add-circle{min-width:100px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.product-card:hover,.product-card:hover .product-image,.primary:hover,.primary:active,.secondary:active,.qty button:active{transform:none!important}}
+
+/* Correções de formulário: mesma paleta e hierarquia. */
+.choice-group { border: 0; padding: 0; margin: 0; min-width: 0; }
+.choice-group legend { float: none; width: 100%; }
+.field-error { color: #ffb6a6; font-size: 14px; line-height: 1.5; margin-top: 6px; }
+input[aria-invalid="true"] { border-color: #ffb6a6; }
+.session-note { line-height: 1.5; }
+#resume-order { width: 100%; margin-top: 10px; }
+#checkout-title:focus { outline: 2px solid #ffd29b; outline-offset: 4px; }
+
+/* A sacola respeita a altura real do cabeçalho fixo. */
+@media (min-width: 851px) {
+  .bag { top: calc(var(--header-height, 115px) + 16px); max-height: calc(100vh - var(--header-height, 115px) - 32px); overflow-y: auto; }
+}
+@media (max-width: 600px) {
+  .modal-image { height: min(190px, calc(var(--dialog-height, 100dvh) * .25)); }
+}
+/* Em pouca altura, uma única rolagem mantém todos os itens e ações acessíveis. */
+@media (max-width: 850px) and (max-height: 600px) {
+  .bag-dialog .bag.open { overflow-y: auto; }
+  .bag-dialog #bag-content { flex: 0 0 auto; overflow: visible; }
+}
+@media (max-width: 850px) {
+  .compact-viewport .bag-dialog .bag.open { overflow-y: auto; }
+  .compact-viewport .bag-dialog #bag-content { flex: 0 0 auto; overflow: visible; }
+}
+
+.compatibility-warning { padding: 20px; border: 1px solid #ffb6a6; color: #fff5e8; line-height: 1.6; }

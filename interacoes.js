@@ -1,6 +1,6 @@
 /* Adaptações próprias das referências de interação Não Codei.
    Conteúdo e ações permanecem disponíveis sem esperar pelas animações. */
-const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+const motionPreference = typeof window.matchMedia==='function'?window.matchMedia('(prefers-reduced-motion: reduce)'):{matches:true};
 function hasMotion(){return !motionPreference.matches && typeof Element.prototype.animate==='function'}
 function animateMenu(){
   if(!hasMotion())return;
@@ -44,6 +44,6 @@ document.addEventListener('pointerdown',event=>{
   const animation=wave.animate([{transform:'scale(0)',opacity:.16},{transform:'scale(1)',opacity:0}],{duration:420,easing:'ease-out'});
   animation.finished.then(()=>wave.remove(),()=>wave.remove());
 });
-motionPreference.addEventListener('change',()=>{
+motionPreference.addEventListener?.('change',()=>{
   if(motionPreference.matches)document.getAnimations().forEach(animation=>animation.cancel());
 });
